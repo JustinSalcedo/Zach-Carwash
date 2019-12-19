@@ -145,6 +145,8 @@ nav ul {
 /* About Us */
 #info section {
     text-align: right;
+    position: relative;
+    margin-top: -10%;
 }
 
 #info h4 {
@@ -166,4 +168,25 @@ nav ul {
     border-radius: 25% 0 0 25%;
     text-align: justify;
     padding: 50px;
+}
+
+/* Find Us */
+#location, #contact {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#contactElements {
+    display: flex;
+}
+
+    #contactElements img {
+        width: 50%;
+    }
+
+/* Footer */
+footer {
+    padding: 2%;
+    text-align: center;
 }

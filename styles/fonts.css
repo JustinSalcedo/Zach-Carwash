@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', 'Segoe UI', sans-serif;
     font-size: 16px;
+    color: var(--black);
 }
 
 h1 {
@@ -13,17 +14,32 @@ h2, h4 {
     letter-spacing: 4px;
 }
 
-h3 {
+h3, h5 {
     font-size: 24px;
     letter-spacing: 1px;
 }
 
 h4 {
     text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #callButton button {
     font-size: 24px;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.container h4 {
+    color: var(--black);
+}
+
+#contactElements a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 nav ul a {
@@ -33,4 +49,13 @@ nav ul a {
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.copy {
+    color: var(--white);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--yellow);
 }

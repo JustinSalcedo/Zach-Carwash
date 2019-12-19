@@ -24,7 +24,7 @@ nav ul li {
 /* Main */
 
 main {
-    background: url("../images/background.jpg");
+    background: url("../images/background.jpg") repeat-x;
 }
 
 .band {
@@ -33,5 +33,10 @@ main {
 
 /* About Us */
 #infoText {
-    background: whitesmoke;
+    background: var(--white);
+}
+
+/* Find Us */
+.container {
+    background: var(--white);
 }
