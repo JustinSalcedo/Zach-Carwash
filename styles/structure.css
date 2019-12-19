@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Breaks */
+
+.break05 {
+    height: 50px;
+}
+
+.break1 {
+    height: 100px;
+}
+
+.break2 {
+    height: 200px;
+}
+
+/* Header */
+.front {
+    position: absolute;
+    width: 100%;
+    margin-top: -50%;
+}
+
+#logo {
+    text-align: center;
+}
+
+    #logo img {
+        width: 50%;
+    }
+
+#subtitle {
+    text-align: center;
+}
+
+    #subtitle section {
+        ;
+    }
+
+    #subtitle section h2 {
+        width: 50%;
+        margin: auto;
+    }
+
+#callButton {
+    text-align: center;
+}
+
+    #callButton button {
+        margin-top: 50px;
+        width: 30%;
+        height: 5vh;
+    }
+
+/* Navigation bar */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+    nav ul li {
+        width: 100%;
+    }
+
+/* Main */
+
+.band {
+    margin: 0;
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    margin-left: -200px;
+}
+
+    .band aside {
+        margin-left: 500px;
+        padding-left: 20px;
+    }
+
+    .band aside h3 {
+        position: relative;
+        transform: translate(0%, 150%);
+    }
+
+#services picture img {
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+    margin-top: -10%;
+}
+
+/* Bands effect */
+#ser2 .band {
+    margin-left: -300px;
+}
+
+    #ser2 .band aside{
+        margin-left: 600px;
+    }
+
+#ser3 .band {
+    margin-left: -400px;
+}
+
+    #ser3 .band aside{
+        margin-left: 700px;
+    }
+
+#ser4 .band {
+    margin-left: -500px;
+}
+
+    #ser4 .band aside{
+        margin-left: 800px;
+    }
+
+#ser5 .band {
+    margin-left: -600px;
+}
+
+    #ser5 .band aside{
+        margin-left: 900px;
+    }
+
+    #ser5 .band aside h3 {
+        position: relative;
+        transform: translate(0%, 50%);
+    }
+
+#ser1, #ser2, #ser3, #ser4, #ser5 {
+    margin-bottom: 10%;
+}
+
+/* About Us */
+#info section {
+    text-align: right;
+}
+
+#info h4 {
+    margin-right: 200px;
+}
+
+#info aside {
+    width: 70%;
+    display: flex;
+    position: relative;
+    transform: translate(43%, 0);
+}
+
+#info img, #infoText {
+    width: 50%;
+}
+
+#infoText {
+    border-radius: 25% 0 0 25%;
+    text-align: justify;
+    padding: 50px;
+}
