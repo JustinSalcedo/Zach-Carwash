@@ -133,7 +133,7 @@ nav ul {
         margin-left: 900px;
     }
 
-    #ser5 .band aside h3 {
+    #ser5 .band aside h3, #ser4 .band aside h3 {
         position: relative;
         transform: translate(0%, 50%);
     }
@@ -185,8 +185,36 @@ nav ul {
         width: 50%;
     }
 
+/* Google Maps */
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:1000px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:1000px;
+}
+
 /* Footer */
 footer {
     padding: 2%;
     text-align: center;
+}
+
+/* Gallery */
+.galleryContainer {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.galleryContainer img {
+    padding: 10px;
 }

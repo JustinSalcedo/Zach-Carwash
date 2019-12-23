@@ -1,0 +1,110 @@
+/* Banner */
+#callButton button:hover {
+    background-color: var(--lightGreen);
+    box-shadow: 2px 2px 3px var(--lightGreen);
+}
+
+/* Navigation bar */
+nav ul a:hover {
+    font-size: 36px;
+    color: var(--yellow);
+}
+
+/* Contact */
+#contactElements img:hover {
+    width: 60%;
+}
+
+/* Gallery */
+.galleryContainer img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+/* Animations */
+
+.fadeIn {
+	animation-duration: 2s;
+	animation-fill-mode: both;
+	animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn3 {
+	animation-duration: 3s;
+	animation-fill-mode: both;
+	animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeInDown {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fadeInLeft {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fadeInRight {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate3d(143%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(43%, 0, 0);
+	}
+}

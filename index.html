@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="styles/structure.css">
     <link rel="stylesheet" href="styles/colors-fx.css">
     <link rel="stylesheet" href="styles/fonts.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="styles/animations.css">
 </head>
 <body>
     <header>
@@ -36,7 +37,7 @@
             </div>
         </div>
         <div class="front">
-            <div id="logo">
+            <div id="logo" class="fadeIn">
                 <h1>Zach Carwash</h1>
                 <img src="images/logo.png" alt="Zach Carwash">
             </div>
@@ -48,7 +49,7 @@
             <div id="callButton">
                 <a href="tel:8583223012"><button>(858) 322-3012</button></a>
             </div>
-            <nav>
+            <nav class="fadeInDown">
                 <ul>
                     <li><a href="#info">About Us</a></li>
                     <li><a href="#services">Services</a></li>
@@ -59,7 +60,7 @@
         </div>
     </header>
     <main>
-        <div id="services">
+        <div id="services" class="fadeInLeft">
             <div class="break1"></div>
             <div id="ser1">
                 <div class="band">
@@ -87,7 +88,7 @@
             </div>
             <div id="ser4">
                 <div class="band">
-                    <aside><h3>Carpet & Interior Cleaning</h3></aside>
+                    <aside><h3>Carpet & <br>Interior Cleaning</h3></aside>
                 </div>
                 <picture>
                     <img src="images/service4.jpg" alt="Interior Cleaning">
@@ -105,7 +106,7 @@
         <div id="info">
             <section>
                 <h4>About Us</h4>
-                <aside>
+                <aside class="fadeInRight">
                     <div id="infoText">
                         <p>Here, the Zach Carwash team!
                             We like to interact face-to-face with customers to understand vehicle detailing needs and ensure quality satisfaction. 
@@ -117,7 +118,7 @@
                             We'll always resolve your requests: by phone, by email or in person.
                             After all, you deserve a 5-stars detailing service which exceeds your expectations.</p>
                     </div>
-                    <img src="images/info.jpg" alt="Car Washing">
+                    <img src="images/info.jpg" alt="Car Washing" class="fadeIn3">
                 </aside>
             </section>
         </div>
@@ -128,7 +129,15 @@
         <div id="location">
             <h4>Location</h4>
             <p>Serving all San Diego area and surroundings</p>
-            <div id="gMap"></div>
+            <div id="gMap">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="1000" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=San%20Diego&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.emojilib.com"></a>
+                    </div>
+                    
+                </div>
+            </div>
             <div class="break05"></div>
         </div>
         <div id="contact">
@@ -148,6 +157,7 @@
                         </section>
                     </a>
             </div>
+            <div class="break05"></div>
         </div>
     </section>
     <footer>

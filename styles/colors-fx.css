@@ -10,11 +10,19 @@ body {
     --yellow: #ffdc34;
     --red: #f40000;
     --guinda: #c10000;
+    --green: #4fc26f;
+    --lightGreen: #78dd96;
 }
 
 /* Banner */
 #subtitle section h2 {
     background: url("../images/marks1.png") no-repeat 50% 50%;
+}
+
+#callButton button {
+    border: none;
+    border-radius: 25px;
+    background-color: var(--green);
 }
 
 nav ul li {
@@ -39,4 +47,13 @@ main {
 /* Find Us */
 .container {
     background: var(--white);
+}
+
+/* Gallery */
+.galleryContainer {
+    background: var(--white);
+}
+
+.galleryContainer img {
+    transition: 1s;
 }
