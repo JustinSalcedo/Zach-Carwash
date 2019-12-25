@@ -1,6 +1,8 @@
-body{
-    margin: 0;
+html, body {
+    width: 100%;
+    height: 100%;
     padding: 0;
+    margin: 0px;
 }
 
 /* Breaks */
@@ -19,9 +21,8 @@ body{
 
 /* Header */
 .front {
-    position: absolute;
-    width: 100%;
-    margin-top: -50%;
+    position: relative;
+    padding-top: 10%;
 }
 
 #logo {
@@ -51,8 +52,8 @@ body{
 
     #callButton button {
         margin-top: 50px;
-        width: 30%;
-        height: 5vh;
+        width: 40%;
+        height: 6vh;
     }
 
 /* Navigation bar */
@@ -67,6 +68,7 @@ nav ul {
     width: 80%;
     margin: auto;
     margin-top: 10vh;
+    padding: 0;
 }
 
     nav ul li {
@@ -75,99 +77,84 @@ nav ul {
 
 /* Main */
 
+#services {
+    display: block;
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+}
+
 .band {
-    margin: 0;
+    background: url("../images/band2.png") no-repeat right;
+    height: 201px;
+    margin-bottom: 50px;
     width: 100%;
-    height: 15vh;
-    position: relative;
-    margin-left: -200px;
+    display: flex;
 }
 
-    .band aside {
-        margin-left: 500px;
-        padding-left: 20px;
-    }
-
-    .band aside h3 {
-        position: relative;
-        transform: translate(0%, 150%);
-    }
-
-#services picture img {
-    width: 300px;
-    position: absolute;
-    z-index: 10;
-    margin-top: -10%;
+.band h3 {
+    margin: 0;
+    padding: 50px 30px;
 }
 
-/* Bands effect */
-#ser2 .band {
-    margin-left: -300px;
+.band:nth-child(1) br{
+    display: none;
 }
 
-    #ser2 .band aside{
-        margin-left: 600px;
-    }
-
-#ser3 .band {
-    margin-left: -400px;
+.band:nth-child(1) {
+    width: 75%;
 }
 
-    #ser3 .band aside{
-        margin-left: 700px;
-    }
-
-#ser4 .band {
-    margin-left: -500px;
+.band:nth-child(2) {
+    width: 70%;
 }
 
-    #ser4 .band aside{
-        margin-left: 800px;
-    }
-
-#ser5 .band {
-    margin-left: -600px;
+.band:nth-child(3) {
+    width: 65%;
 }
 
-    #ser5 .band aside{
-        margin-left: 900px;
-    }
+.band:nth-child(4) {
+    width: 60%;
+}
 
-    #ser5 .band aside h3, #ser4 .band aside h3 {
-        position: relative;
-        transform: translate(0%, 50%);
-    }
+.band:nth-child(5) {
+    width: 55%;
+}
 
-#ser1, #ser2, #ser3, #ser4, #ser5 {
-    margin-bottom: 10%;
+.band img {
+    width: 335px;
 }
 
 /* About Us */
 #info section {
     text-align: right;
-    position: relative;
-    margin-top: -10%;
 }
 
 #info h4 {
     margin-right: 200px;
 }
 
-#info aside {
-    width: 70%;
+#infoContainer {
+    width: 100%;
     display: flex;
-    position: relative;
-    transform: translate(43%, 0);
 }
 
-#info img, #infoText {
-    width: 50%;
+.box {
+    width: 100%;
 }
 
-#infoText {
+.box:nth-child(2) {
     border-radius: 25% 0 0 25%;
     text-align: justify;
-    padding: 50px;
+    padding: 5%;
+}
+
+.box img {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 /* Find Us */
@@ -186,19 +173,25 @@ nav ul {
     }
 
 /* Google Maps */
-
 .mapouter {
-    position:relative;
-    text-align:right;
-    height:500px;
-    width:1000px;
+    position: relative;
+    text-align: center;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
 }
 
 .gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:500px;
-    width:1000px;
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+
+.gmap_canvas iframe {
+    width: 1000px;
+    height: 500px;
 }
 
 /* Footer */

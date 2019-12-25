@@ -4,42 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Zach Carwash</title>
+    <title>Gallery - Zach Carwash</title>
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/structure.css">
     <link rel="stylesheet" href="styles/colors-fx.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive-front.css">
     <link rel="stylesheet" href="styles/lightbox.min.css">
     <script src="scripts/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/responsive-findUs.css">
+    <link rel="stylesheet" href="styles/responsive-gallery.css">
 </head>
 <body>
     <header>
-        <div class="banner">
-            <div class="gallery">
-                <div class="imgContainer">
-                    <img src="images/banner1.jpg" alt="Zach Carwash">
-                </div>
-                <div class="imgContainer">
-                    <img src="images/banner2.jpg" alt="Zach Carwash">
-                </div>
-                <div class="imgContainer">
-                    <img src="images/banner3.jpg" alt="Zach Carwash">
-                </div>
-                <div class="imgContainer">
-                    <img src="images/banner4.jpg" alt="Zach Carwash">
-                </div>
-                <div class="imgContainer">
-                    <img src="images/banner5.jpg" alt="Zach Carwash">
-                </div>
-                <div class="imgContainer">
-                    <img src="images/banner6.jpg" alt="Zach Carwash">
-                </div>
-            </div>
-        </div>
+        <slider>
+            <slide><p></p></slide>
+            <slide><p></p></slide>
+            <slide><p></p></slide>
+            <slide><p></p></slide>
+        </slider>
         <div class="front">
-            <div id="logo">
+            <div id="logo" class="fadeIn">
                 <h1>Zach Carwash</h1>
                 <img src="images/logo.png" alt="Zach Carwash">
             </div>
@@ -51,7 +38,7 @@
             <div id="callButton">
                 <a href="tel:8583223012"><button>(858) 322-3012</button></a>
             </div>
-            <nav>
+            <nav class="fadeInDown">
                 <ul>
                     <li><a href="index.html#info">About Us</a></li>
                     <li><a href="index.html#services">Services</a></li>
@@ -62,13 +49,14 @@
         </div>
     </header>
     <main>
+        <div class="break1"></div>
         <div class="galleryContainer">
-            <a href="images/gallery/car1.jpg" data-lightbox="mygallery"><img src="images/gallery/car1small.jpg" alt=""></a>
-            <a href="images/gallery/car2.jpg" data-lightbox="mygallery"><img src="images/gallery/car2small.jpg" alt=""></a>
-            <a href="images/gallery/car3.jpg" data-lightbox="mygallery"><img src="images/gallery/car3small.jpg" alt=""></a>
-            <a href="images/gallery/car4.jpg" data-lightbox="mygallery"><img src="images/gallery/car4small.jpg" alt=""></a>
-            <a href="images/gallery/car5.jpg" data-lightbox="mygallery"><img src="images/gallery/car5small.jpg" alt=""></a>
-            <a href="images/gallery/car6.jpg" data-lightbox="mygallery"><img src="images/gallery/car6small.jpg" alt=""></a>
+            <a href="images/gallery/car1.jpg" data-lightbox="mygallery"><img src="images/gallery/car1small.jpg" alt="Front of Black Car"></a>
+            <a href="images/gallery/car2.jpg" data-lightbox="mygallery"><img src="images/gallery/car2small.jpg" alt="Black Truck"></a>
+            <a href="images/gallery/car3.jpg" data-lightbox="mygallery"><img src="images/gallery/car3small.jpg" alt="Red Car"></a>
+            <a href="images/gallery/car4.jpg" data-lightbox="mygallery"><img src="images/gallery/car4small.jpg" alt="Back of Black Car"></a>
+            <a href="images/gallery/car5.jpg" data-lightbox="mygallery"><img src="images/gallery/car5small.jpg" alt="Black Car with Open Doors"></a>
+            <a href="images/gallery/car6.jpg" data-lightbox="mygallery"><img src="images/gallery/car6small.jpg" alt="Blue Car"></a>
         </div>
     </main>
     <footer>

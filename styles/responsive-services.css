@@ -1,0 +1,115 @@
+@media (max-width: 1900px) {
+    .band {
+        background: url("../images/band2.png") no-repeat right;
+    }
+
+    .band:nth-child(1) {
+        width: 100%;
+    }
+
+    .band:nth-child(2) {
+        width: 95%;
+    }
+
+    .band:nth-child(3) {
+        width: 90%;
+    }
+    .band:nth-child(4) {
+        width: 85%;
+    }
+    .band:nth-child(5) {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .band {
+        height: 150px;
+        background-size: contain;
+    }
+
+    .band img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 850px) {
+    .band {
+        height: 120px;
+        background-size: 110% 120px;
+    }
+
+    .band img {
+        width: 200px;
+    }
+
+    .band h3 {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 650px) {
+    .band {
+        height: 99px;
+        background-size: 130% 99px;
+        margin-bottom: 30px;
+    }
+
+    .band img {
+        width: 165px;
+    }
+
+    .band h3 {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .band {
+        height: 60px;
+        background-size: 130% 60px;
+    }
+    
+    .band img {
+        width: 100px;
+    }
+
+    .band h3 {
+        padding: 5px 10px;
+    }    
+}
+
+@media (max-width: 650px) {
+    .band {
+        background-size: 90% 60px;
+    }
+
+    .band h3 {
+        font-size: 16px;
+    } 
+}
+
+@media (max-width: 400px) {
+    .band:nth-child(1) br{
+        display: initial;
+    }
+}
+
+@media (max-width: 350px) {
+    .band {
+        display: block;
+        background: none;
+        height: auto;
+    }
+
+    .band img {
+        width: 150px;
+        height: 90px;
+    }
+
+    .band h3 {
+        background: url("../images/band2.png") no-repeat right;
+        background-size: 100% 50px;
+    } 
+}

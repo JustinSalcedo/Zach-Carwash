@@ -31,6 +31,8 @@ h4 {
 #callButton button {
     font-size: 24px;
     color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 p {

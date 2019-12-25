@@ -40,7 +40,7 @@ main {
 }
 
 /* About Us */
-#infoText {
+.box:nth-child(2) {
     background: var(--white);
 }
 

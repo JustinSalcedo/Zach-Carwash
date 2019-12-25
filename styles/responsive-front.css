@@ -1,0 +1,81 @@
+@media (max-width: 1500px) {
+    .front {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    nav ul a {
+        font-size: 20px;
+    }
+
+    nav ul a:hover {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 650px) {
+    #subtitle section h2 {
+        background: url("../images/marks3.png") no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav ul a {
+        font-size: 18px;
+    }
+
+    nav ul a:hover {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        background: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #logo img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    #logo img {
+        width: 300px;
+    }
+
+    #subtitle section h2 {
+        width: 90%;
+    }
+
+    #callButton button {
+        margin-top: 50px;
+        width: 250px;
+        height: 50px;
+    }
+
+    nav li:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        padding-bottom: 3px;
+    }
+}
