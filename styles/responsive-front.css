@@ -26,6 +26,10 @@
         border-radius: 5px;
     }
 
+    #callButton button {
+        font-weight: lighter;
+    }
+
     h2 {
         font-size: 20px;
     }
