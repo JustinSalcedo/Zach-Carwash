@@ -37,10 +37,6 @@ html, body {
     text-align: center;
 }
 
-    #subtitle section {
-        ;
-    }
-
     #subtitle section h2 {
         width: 50%;
         margin: auto;
@@ -206,6 +202,7 @@ footer {
     margin: auto;
     text-align: center;
     padding: 20px 10px;
+    position: relative;
 }
 
 .galleryContainer img {
